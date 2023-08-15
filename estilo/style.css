@@ -98,6 +98,12 @@ main {
 
 main h1 {
     font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--ama2), transparent);
+    color: var(--ver);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: var(--fonte-android);
 }
 
 main h2 {
@@ -111,10 +117,18 @@ main img.media {
     width: 150px;
     display: block;
     margin: auto; 
+    padding: 15px;
 
 }
 
 main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; /*Espaço na primeira linha do parágrafo*/
+    line-height: 2em; /*Altura da linha, entre uma linha e outra. Espaçamento*/
+}
+
+article p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px; /*Espaço na primeira linha do parágrafo*/
