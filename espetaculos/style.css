@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    /*Esta configuração do margin e do padding zerados é para resetar os elementos*/
+}
+
+html, body {
+    min-height: 100%; /*Pode ser 100vh também, tamanho mínimo do site*/
+    background-color: rgb(252, 252, 123); /*Parei em 4min*/
+}
