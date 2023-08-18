@@ -34,6 +34,18 @@ html, body {
     
 }
 
+body {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 3px 15px gray;
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--ver), var(--ama));
     color: white;
@@ -78,16 +90,24 @@ section.normal {
 section.imagem {
     background-color: var(--ama);
     color: white;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.842);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 8px;
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.61);
+    text-shadow: 2px 2px 0px black;
+    color: aliceblue;
 }
 
 section#img-bruxa{
-    background-image: url('../');
+    background-image: url('./img/img-bruxa.jpg');
+    background-position: top center;
+    background-size: cover;
+
 }
 
 footer {
