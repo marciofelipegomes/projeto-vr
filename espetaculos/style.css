@@ -86,6 +86,10 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.226);
 }
 
+section#img-bruxa{
+    background-image: url();
+}
+
 footer {
     background-color: var(--ver);
     color: var(--ama);
