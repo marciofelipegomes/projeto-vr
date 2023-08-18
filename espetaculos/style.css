@@ -60,3 +60,33 @@ header a:hover, footer a:hover {
 }
 
 /*Parei em 8min*/
+
+section {
+    /*para ganhar espaço e rolagem*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*Espaçamento entre as palavras*/
+}
+
+section.normal {
+    background-color: var(--bra);
+    color: black;
+}
+
+section.imagem {
+    background-color: var(--ama);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+footer {
+    background-color: var(--ver);
+    color: var(--ama);
+    text-align: center;
+    padding: 8px;
+
+}
