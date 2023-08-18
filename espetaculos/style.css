@@ -30,6 +30,7 @@
 html, body {
     min-height: 100%; /*Pode ser 100vh - view hight. também, tamanho mínimo do site.*/
     background-color: rgb(252, 252, 123); 
+    font-family: var(--fonte-destaque);
     
 }
 
@@ -42,6 +43,7 @@ header {
 header > h1 {
     padding-top: 30px;
     font-variant: small-caps;
+    font-family: var(--fonte-android);
 }
 
 header > p {
@@ -79,7 +81,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 8px;
     background-color: rgba(0, 0, 0, 0.226);
 }
 
