@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    /*Esta configuração do margin e do padding zerados é para resetar os elementos. Deixou tudo grudado, por enquanto*/
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --ver: #FF2E34;
+    --ver2: #FF656E;
+    --ama: #FFC700;
+    --ama2: #F4DB67;
+    --bra: #E9E8E4;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'Android', 'Cursive';
+}
+
+html, body {
+    min-height: 100%; /*Pode ser 100vh - view hight. também, tamanho mínimo do site.*/
+    background-color: rgb(252, 252, 123); 
+    font-family: var(--fonte-destaque);
+    
+}
+
+body {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 3px 15px gray;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--ver), var(--ama));
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-family: var(--fonte-android);
+}
+
+header > p {
+    padding-bottom: 30px;
+
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/*Parei em 8min*/
+
+section {
+    /*para ganhar espaço e rolagem*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*Espaçamento entre as palavras*/
+}
+
+section.normal {
+    background-color: var(--bra);
+    color: black;
+}
+
+section.imagem {
+    background-color: var(--ama);
+    color: white;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.842);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-shadow: 2px 2px 0px black;
+    color: aliceblue;
+}
+
+section#img-dezessete{
+    background-image: url(../dezessete/img-dezessete.jpg);
+    background-position: top center;
+    background-size: cover;
+
+}
+
+footer {
+    background-color: var(--ver);
+    color: var(--ama);
+    text-align: center;
+    padding: 8px;
+
+}
