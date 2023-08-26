@@ -93,6 +93,8 @@ section.imagem {
     box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.842);
     background-size: cover;
     background-attachment: fixed;
+    
+    
 }
 
 section.imagem > p {
@@ -101,12 +103,15 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.61);
     text-shadow: 2px 2px 0px black;
     color: aliceblue;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img-brasileiro{
     background-image: url(../brasileiro/img-brasileiro.jpg);
     background-position: top center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
